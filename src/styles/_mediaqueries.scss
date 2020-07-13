@@ -1,0 +1,59 @@
+@media (min-width: 576px) {
+    .container {
+        grid-template-areas: 
+        "nav nav nav"
+        "header header header"
+        "photo photo photo"
+        "intro intro intro"
+        "body body adpod1"
+        "body body adpod2"
+        "relatedlinks relatedlinks relatedlinks"
+        "footer footer footer";
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        grid-template-areas: 
+        "nav nav nav"
+        "header header header"
+        "photo photo intro"
+        "body body adpod1"
+        "body body adpod2"
+        "body body relatedlinks"
+        "footer footer footer";
+    }
+
+    nav {
+        .full-menu {
+            display: flex;
+        }
+    
+        .hamburger-icon {
+            display: none;
+        }
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        grid-template-areas: 
+        "nav nav nav"
+        "header header header"
+        "photo photo intro"
+        "body body adpod1"
+        "body body adpod2"
+        "body body relatedlinks"
+        "footer footer footer";
+    }
+
+    nav {
+        .full-menu {
+            display: flex;
+        }
+    
+        .hamburger-icon {
+            display: none;
+        }
+    }
+}

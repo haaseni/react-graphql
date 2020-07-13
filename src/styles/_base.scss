@@ -1,0 +1,28 @@
+html {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif, helvetica;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 10px;
+}
+
+img {
+    max-width: 100%;
+}
+
+.friend {
+    margin: 20px 0 0 0;
+}
+
+.contact {
+    margin: 0 0 0 20px;
+}
+
+.alien {
+    margin: 20px 0 0 0;
+}

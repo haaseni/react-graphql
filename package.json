@@ -1,0 +1,52 @@
+{
+  "name": "react-graphql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start-react": "react-scripts start",
+    "build-react": "react-scripts build",
+    "start-graphql": "nodemon ./src/index-graphql.js --exec babel-node -e js"
+  },
+  "author": "Nick Haase",
+  "license": "ISC",
+  "dependencies": {
+    "@apollo/react-hooks": "^3.1.5",
+    "@types/react": "^16.9.43",
+    "apollo-boost": "^0.4.9",
+    "casual": "^1.6.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-graphql": "^0.9.0",
+    "graphql": "^15.2.0",
+    "graphql-tools": "^6.0.12",
+    "lodash": "^4.17.15",
+    "mongoose": "^5.9.21",
+    "nodemon": "^2.0.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-scripts": "^3.4.1",
+    "sequelize": "^6.3.1",
+    "sqlite3": "^5.0.0",
+    "typescript": "^3.9.6"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "node-sass": "^4.14.1",
+    "normalize-scss": "^7.0.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
